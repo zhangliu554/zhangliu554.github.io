@@ -899,6 +899,11 @@ body::before {
   color: #fff;
   background-color: rgba(0,120,231,0.9);
 }
+#search {
+    position: fixed;
+    top: 0.6rem;
+    right: 0.8rem;
+}
 .hty-icon-button {
   display: inline-flex;
   border: none;
