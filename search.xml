@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>git常用操作</title>
+      <link href="/2020/08/19/git/"/>
+      <url>/2020/08/19/git/</url>
+      
+        <content type="html"><![CDATA[<blockquote><h3 id="常见操作命令"><a href="#常见操作命令" class="headerlink" title="常见操作命令"></a>常见操作命令</h3></blockquote><p>初始化一个Git仓库 git init</p><p>查看分支：git branch</p><p>创建分支：git branch <name></p><p>切换分支：git checkout <name></p><p>创建+切换分支：git checkout -b <name></p><p>合并某分支到当前分支：git merge <name></p><p>删除分支：git branch -d <name></p><p>查看远程库信息 git remote -v；</p><a id="more"></a><p>从本地推送分支 git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；</p><p>在本地创建和远程分支对应的分支 git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；</p><p>建立本地分支和远程分支的关联 git branch –set-upstream branch-name origin/branch-name；</p><p>从远程抓取分支 git pull，如果有冲突，要先处理冲突。</p><p>工作区的状态 git status命</p><p>查看修改内容 git diff</p><p>版本回滚 git reset –hard commit_id</p><p>查看提交历史 git log 查看命令历史 git reflog </p><blockquote><h3 id="删除文件操作"><a href="#删除文件操作" class="headerlink" title="删除文件操作"></a>删除文件操作</h3></blockquote><p>$ git pull origin master 将远程仓库里面的项目拉下来</p><p>$ dir  查看有哪些文件夹</p><p>$ git rm -r –cached target  删除target文件夹</p><p>$ git commit -m ‘删除了target’  提交,添加操作说明</p><p>$ git push -u origin master 将本次更改更新到github项目上去</p><blockquote><h3 id="合作开发-fork操作"><a href="#合作开发-fork操作" class="headerlink" title="合作开发 fork操作"></a>合作开发 fork操作</h3></blockquote><p><img src="https://lemon-29-zl.oss-cn-beijing.aliyuncs.com/Blog/github.png" alt="Audits - Lighthouse" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo搭建静态博客</title>
       <link href="/2020/08/17/blog/"/>
       <url>/2020/08/17/blog/</url>
       
-        <content type="html"><![CDATA[<blockquote><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1></blockquote><p>使用github pages服务搭建博客的好处有：<br>全是静态文件，访问速度快；<br>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；<br>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；<br>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；<br>博客内容可以轻松打包、转移、发布到其它平台；</p><p>具体搭建方法参照 小茗同学的博客园</p><blockquote><p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a> </p></blockquote>]]></content>
+        <content type="html"><![CDATA[<blockquote><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1></blockquote><p>使用github pages服务搭建博客的好处有：<br>全是静态文件，访问速度快；<br>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；<br>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；<br>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；<br>博客内容可以轻松打包、转移、发布到其它平台； </p><a id="more"></a><p>具体搭建方法参照 小茗同学的博客园</p><blockquote><p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a> </p></blockquote>]]></content>
       
       
       <categories>
